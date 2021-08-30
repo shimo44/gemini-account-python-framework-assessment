@@ -22,7 +22,6 @@ class TestGeminiCreateAccount(unittest.TestCase):
         self.account_tests.verify_sandbox_page_elements()
         sleep(2)
 
-        # self.account_tests.driver.browser.quit()
 
     def test_create_isr_account(self):
         print("Creating an Institution Client account Test")
@@ -37,9 +36,9 @@ class TestGeminiCreateAccount(unittest.TestCase):
         self.account_tests.verify_isr_page_elements()
 
         self.account_tests.negative_lead_data_submission()
+
         # self.account_tests.passing_lead_data_submission()
 
-        self.account_tests.driver.browser.quit()
 
 
 def __main__():

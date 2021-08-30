@@ -38,7 +38,8 @@ class CreateAnAccount:
         self.cta_overlay_cookie_use_ok = "//a[@data-testid='cookiePolicyAgreement-close']"
 
         self.link_account_sign_in = ""
-        self.link_create_a_business_account = "//a[@data-testid='register-go-to-institution-register']"
+        # self.link_create_a_business_account = "//a[@data-testid='register-go-to-institution-register']"
+        self.link_create_a_business_account = "//a[@href='/register/institution']"
 
         # Business Account Creation #
         self.url_create_an_account_institution = "https://exchange.sandbox.gemini.com/register/institution"
